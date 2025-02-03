@@ -1,0 +1,34 @@
+{
+  "name": "algoverse",
+  "version": "1.0.0",
+  "description": "AlgoVerse is a JavaScript library for efficient algorithms, data structures, and interactive visualizations. It helps developers implement and visualize structures like heaps, graphs, and trees in real time.",
+  "main": "index.js",
+  "scripts": {
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raqibreyaz/AlgoVerse.git"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "priority-queue",
+    "binary-search",
+    "heap",
+    "graph",
+    "tree",
+    "linked-list",
+    "visualization",
+    "algorithm-visualization",
+    "JavaScript",
+    "npm-package",
+    "AlgoVerse"
+  ],
+  "author": "Raquib Reyaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Raqibreyaz/AlgoVerse/issues"
+  },
+  "homepage": "https://github.com/Raqibreyaz/AlgoVerse#readme"
+}
