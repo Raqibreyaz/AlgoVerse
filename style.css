@@ -1,0 +1,31 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box {
+  fill: lightblue;
+  stroke: black;
+  stroke-width: 2;
+}
+.node {
+  fill: lightgreen;
+  stroke: black;
+  stroke-width: 2;
+}
+.link {
+  stroke: black;
+  stroke-width: 2;
+}
+.text,
+.index-text {
+  font-size: 16px;
+  text-anchor: middle;
+}
+.index-text {
+  fill: gray;
+}
+
+#visualizer-svg{
+  min-height: 100vh;
+  min-width: 100%;
+}

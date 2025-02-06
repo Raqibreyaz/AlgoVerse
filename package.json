@@ -2,9 +2,16 @@
   "name": "algoverse",
   "version": "1.0.0",
   "description": "AlgoVerse is a JavaScript library for efficient algorithms, data structures, and interactive visualizations. It helps developers implement and visualize structures like heaps, graphs, and trees in real time.",
-  "main": "index.js",
+  "main": "dist/algoverse.cjs.js",
+  "module": "dist/algoverse.es.js",
+  "unpkg": "dist/algoverse.umd.js",
+  "jsdelivr": "dist/algoverse.umd.js",
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
   "scripts": {
-   
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -25,10 +32,21 @@
     "npm-package",
     "AlgoVerse"
   ],
+  "exports": {
+    "import": "./dist/algoverse.es.js",
+    "require": "./dist/algoverse.cjs.js",
+    "default": "./dist/algoverse.umd.js"
+  },
   "author": "Raquib Reyaz",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Raqibreyaz/AlgoVerse/issues"
   },
-  "homepage": "https://github.com/Raqibreyaz/AlgoVerse#readme"
+  "homepage": "https://github.com/Raqibreyaz/AlgoVerse#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "rollup": "^4.34.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
