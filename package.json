@@ -4,6 +4,7 @@
   "description": "AlgoVerse is a JavaScript library for efficient algorithms, data structures, and interactive visualizations. It helps developers implement and visualize structures like heaps, graphs, and trees in real time.",
   "main": "dist/algoverse.cjs.js",
   "module": "dist/algoverse.es.js",
+  "browser": "dist/algoverse.umd.js",
   "unpkg": "dist/algoverse.umd.js",
   "jsdelivr": "dist/algoverse.umd.js",
   "files": [
@@ -35,6 +36,7 @@
   "exports": {
     "import": "./dist/algoverse.es.js",
     "require": "./dist/algoverse.cjs.js",
+    "browser": "./dist/algoverse.umd.js",
     "default": "./dist/algoverse.umd.js"
   },
   "author": "Raquib Reyaz",

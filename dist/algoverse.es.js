@@ -509,10 +509,10 @@ class Queue {
     // will give the queue as an array
     this.giveAsArray = () => ll.giveAsArray();
   }
-  top() {
+  topElement() {
     return this.#front.data;
   }
-  bottom() {
+  bottomElement() {
     return this.#back.data;
   }
   show() {

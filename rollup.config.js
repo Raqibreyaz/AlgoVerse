@@ -7,7 +7,7 @@ export default {
   output: [
     {
       file: "dist/algoverse.es.js",
-      format: "es"
+      format: "esm"
     },
     {
       file: "dist/algoverse.cjs.js",
