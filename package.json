@@ -1,6 +1,6 @@
 {
   "name": "algoverse",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "AlgoVerse is a JavaScript library for efficient algorithms, data structures, and interactive visualizations. It helps developers implement and visualize structures like heaps, graphs, and trees in real time.",
   "main": "dist/algoverse.cjs.js",
   "module": "dist/algoverse.es.js",
